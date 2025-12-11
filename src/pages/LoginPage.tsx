@@ -55,7 +55,7 @@ export const LoginPage = () => {
     <Box
       className="min-h-screen flex items-center justify-center px-4"
       sx={{
-        backgroundImage: "url('/bg-login.jpg')",
+        backgroundImage: `url('${import.meta.env.BASE_URL}bg-login.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
