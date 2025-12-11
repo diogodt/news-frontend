@@ -1,9 +1,7 @@
-type GlobalWithApi = typeof globalThis & { __APP_API_URL__?: string };
+// Force production API endpoint to avoid falling back to localhost during dev/refresh flows
+export const API_BASE_URL = "https://news-backend-tahw.onrender.com/api";
 
-const globalApi = (globalThis as GlobalWithApi).__APP_API_URL__;
-
-export const API_BASE_URL: string = globalApi || "http://localhost:8000/api";
-
-export const setApiBaseUrl = (url: string): void => {
-  (globalThis as GlobalWithApi).__APP_API_URL__ = url;
+// no-op setter kept for compatibility
+export const setApiBaseUrl = (_url: string): void => {
+  // intentionally ignored
 };
