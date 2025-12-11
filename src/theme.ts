@@ -3,11 +3,12 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#6EC1E4",
+      main: "#2e8db5", // text accent
+      light: "#88d8f9", // backgrounds
       contrastText: "#01334b",
     },
     secondary: {
-      main: "#61CE70",
+      main: "#68dd97",
     },
     text: {
       primary: "#1e1e1e",
@@ -18,7 +19,7 @@ const theme = createTheme({
       paper: "#f9fbfd",
     },
     success: {
-      main: "#00B74A",
+      main: "#68dd97",
     },
     info: {
       main: "#014260",
@@ -33,6 +34,28 @@ const theme = createTheme({
   },
   shape: { borderRadius: 6 },
   components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          boxShadow: "none",
+          "&:hover": { boxShadow: "none" },
+          "&:active": { boxShadow: "none" },
+          "&:focusVisible": { boxShadow: "none" },
+        },
+        containedPrimary: {
+          backgroundColor: "#88d8f9",
+          color: "#0f4056",
+          "&:hover": { backgroundColor: "#7acff3" },
+          "&:active": { backgroundColor: "#6fc5e9" },
+        },
+        containedSecondary: {
+          backgroundColor: "#68dd97",
+          color: "#0f3a26",
+          "&:hover": { backgroundColor: "#5fcf8c" },
+          "&:active": { backgroundColor: "#54c481" },
+        },
+      },
+    },
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
@@ -43,6 +66,28 @@ const theme = createTheme({
         },
         input: {
           borderRadius: 6,
+        },
+      },
+    },
+    MuiChip: {
+      styleOverrides: {
+        colorPrimary: {
+          backgroundColor: "#88d8f9",
+          color: "#0f4056",
+        },
+        colorSecondary: {
+          backgroundColor: "#68dd97",
+          color: "#0f3a26",
+        },
+      },
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: {
+          boxShadow: "none",
+          "&:hover": { boxShadow: "none" },
+          "&:active": { boxShadow: "none" },
+          "&:focusVisible": { boxShadow: "none" },
         },
       },
     },

@@ -82,9 +82,9 @@ export const AppLayout = () => {
                     textTransform: "none",
                     fontWeight: 600,
                     color: active ? grafiteText : lightText,
-                    backgroundColor: active ? "#61CE70" : "transparent",
+                    backgroundColor: active ? "#68dd97" : "transparent",
                     "& svg": { color: active ? grafiteText : lightText },
-                    "&:hover": { backgroundColor: active ? "#55b864" : "rgba(255,255,255,0.08)" },
+                    "&:hover": { backgroundColor: active ? "#5fcf8c" : "rgba(255,255,255,0.08)" },
                   }}
                 >
                   {link.label}

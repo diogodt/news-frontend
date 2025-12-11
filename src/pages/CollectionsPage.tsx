@@ -166,7 +166,7 @@ export const CollectionsPage = () => {
                   >
                     <ListItemButton selected={collection.id === selectedId} onClick={() => setSelectedId(collection.id)}>
                       <ListItemAvatar>
-                        <Avatar sx={{ bgcolor: "#6EC1E4" }}>
+                        <Avatar sx={{ bgcolor: "#88d8f9" }}>
                           <LibraryBooksIcon />
                         </Avatar>
                       </ListItemAvatar>

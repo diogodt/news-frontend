@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        brandSky: "#6EC1E4",
+        brandSky: "#88d8f9",
         brandStone: "#54595F",
         brandText: "#7A7A7A",
-        brandAccent: "#61CE70",
+        brandAccent: "#68dd97",
         deepOcean: "#014260",
-        vividGreen: "#00B74A",
+        vividGreen: "#68dd97",
       },
       fontFamily: {
         display: ['"Roboto Slab"', "serif"],

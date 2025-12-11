@@ -122,7 +122,7 @@ export const ArticleDetailPage = () => {
       {hasPrev && (
         <IconButton
           onClick={() => goToIndex(articleIndex - 1)}
-          sx={{ position: "fixed", top: "50%", left: 16, zIndex: 10, bgcolor: "white", boxShadow: 2 }}
+          sx={{ position: "fixed", top: "50%", left: 16, zIndex: 10, bgcolor: "white", boxShadow: "none" }}
         >
           <ArrowBackIosNewIcon />
         </IconButton>
@@ -130,7 +130,7 @@ export const ArticleDetailPage = () => {
       {hasNext && (
         <IconButton
           onClick={() => goToIndex(articleIndex + 1)}
-          sx={{ position: "fixed", top: "50%", right: 16, zIndex: 10, bgcolor: "white", boxShadow: 2 }}
+          sx={{ position: "fixed", top: "50%", right: 16, zIndex: 10, bgcolor: "white", boxShadow: "none" }}
         >
           <ArrowForwardIosIcon />
         </IconButton>
