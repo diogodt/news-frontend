@@ -60,7 +60,17 @@ export const RegisterPage = () => {
   };
 
   return (
-    <Box className="min-h-screen bg-white flex items-center justify-center px-4">
+    <Box
+      className="min-h-screen flex items-center justify-center px-4"
+      sx={{
+        backgroundImage: `url('${import.meta.env.BASE_URL}bg-login.jpg')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "#514c4c",
+        backgroundBlendMode: "overlay",
+      }}
+    >
       <Card elevation={0} sx={{ maxWidth: 520, width: "100%", border: "1px solid #e5e7eb" }}>
         <CardContent sx={{ p: 4 }}>
           <Stack spacing={3}>
