@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1765470142512" clover="3.2.0">
+  <project timestamp="1765470142512" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="29" coveredconditionals="28" methods="11" coveredmethods="11" elements="62" coveredelements="61" complexity="0" loc="22" ncloc="22" packages="2" files="2" classes="2"/>
+    <package name="api">
+      <metrics statements="16" coveredstatements="16" conditionals="25" coveredconditionals="24" methods="7" coveredmethods="7"/>
+      <file name="auth.ts" path="D:\Projetos\Tests\ActiveView\Frontend\src\api\auth.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="25" coveredconditionals="24" methods="7" coveredmethods="7"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="66" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="logger.ts" path="D:\Projetos\Tests\ActiveView\Frontend\src\utils\logger.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

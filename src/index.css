@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Roboto+Slab:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-hue: #6ec1e4;
+  --secondary-hue: #54595f;
+  --body-tone: #7a7a7a;
+  --accent-tone: #61ce70;
+  --navy-ink: #014260;
+  --fresh-green: #00b74a;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #121212;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
