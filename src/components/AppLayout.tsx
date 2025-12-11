@@ -10,9 +10,7 @@ import {
   Stack,
   Toolbar,
   Tooltip,
-  Typography,
 } from "@mui/material";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
 import CollectionsBookmarkIcon from "@mui/icons-material/CollectionsBookmark";
 import TravelExploreIcon from "@mui/icons-material/TravelExplore";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
